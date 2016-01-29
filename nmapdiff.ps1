@@ -18,9 +18,9 @@ param (
  )
 
 $options = ""
-$smtpServer="mail.altercareonline.net"
-$from = "NOREPLY - IT Support <no-reply@altercareonline.net>"
-$Recipient = "justin.herman@altercareonline.net"
+$smtpServer=""
+$from = ""
+$Recipient = ""
 
 if ( Test-Path baselinescan.xml ) {
     Write-Host "<<< Creating delta scan. >>>"
